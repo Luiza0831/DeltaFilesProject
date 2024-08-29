@@ -1,5 +1,6 @@
-import os,shutil
-if os.path.exists('test_file/content.txt'):
-    os.rename('test_file/content.txt','content.txt')
-    os.remove('test_file/logs.json')
-    shutil.rmtree('test_file/versioning')
+import os
+import shutil
+
+os.rename('E:/IT School/Probleme/Curs35/test_file/content.txt','E:/IT School/Probleme/Curs35/content.txt')
+os.remove('E:/IT School/Probleme/Curs35/test_file/logs.json')
+shutil.rmtree('E:/IT School/Probleme/Curs35/test_file/versioning')
